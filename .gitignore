@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# Environment variables
+.env
+
+# Config
+/app/config/
+
+# IDE
+.idea/
+
+# OS
+database.db
+database.sqbpro
+
+#Docker
+bot_reminder_task.tar
+
+#Other
+ReminderTask_tree.txt
+test.py
