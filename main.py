@@ -94,7 +94,6 @@ async def start_bot():
 
 async def main():
     print("http://localhost:8000/tasks/")
-    print("http://localhost:8000/")
     await asyncio.gather(
         start_api(),
         start_scheduler(),
